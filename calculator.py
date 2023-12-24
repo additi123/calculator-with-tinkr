@@ -41,6 +41,7 @@ def update_display(value=""):
 
 screen = tk.Tk()
 screen.geometry("300x275")
+screen.title("Calculator")
 
 text_result = tk.Text(screen, height=2, width=16, font=('Arial', 25))
 text_result.grid(columnspan=5)
