@@ -11,7 +11,7 @@ def add(symbol):
 def evaluate():
     global calculation
     try:
-        print(calculation)
+       
         result = str(eval(calculation))
         calculation = ""
         update_display(result)
